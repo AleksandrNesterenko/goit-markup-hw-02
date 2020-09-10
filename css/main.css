@@ -19,6 +19,7 @@ body {
   background-color: var(--primary-fon-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 li {
   list-style-type: none;
@@ -26,21 +27,38 @@ li {
 a {
   text-decoration: none;
 }
-.title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--secondary--logo-colr);
 }
 
 /* logo  */
 .logohead {
   color: #2196f3;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logolegs {
   color: #000000;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* site-nav */
 .navigation .list {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .navigation .list:hover,
 .navigation .list:focus {
@@ -50,6 +68,11 @@ a {
 /* head-address */
 .header-address .list {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-address .list:hover,
 .header-address .list:focus {
@@ -62,34 +85,92 @@ a {
 }
 .hero-title {
   color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .hero .button {
   background-color: var(--primary-logo-color);
   color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* align-items: center;
+  text-align: center; */
+  letter-spacing: 0.06em;
 }
 
-/* advantages пусто*/
-/* about пусто */
+/* advantages */
+
+.advantages .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.advantages .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* about */
+/* .command */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 
 /* command */
 
-.command {
-  background-color: var(--supporting-fon-color);
+/* .command {
+  background-color: var(--supporting-fon-color); */
 }
-.command .foto {
+/* .command .foto {
   background-color: #ffffff;
   height: 368px;
-  width: 270px;
+  width: 270px; */
 }
-
+.command .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.profession{
+font-weight: n400;
+font-size: 16px;
+line-height: 1.19;
+}
 /* footer */
 
 .footer {
   background-color: var(--secondary-fon-color);
 }
+
+/* address  */
+
 .footer-address .geo {
   color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
+.footer-address .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* logo  */
 
 .footer .logolegs {
   color: #ffffff;
