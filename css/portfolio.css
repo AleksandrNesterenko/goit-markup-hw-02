@@ -17,6 +17,7 @@
 }
 body {
   background-color: var(--primary-fon-color);
+
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -39,6 +40,7 @@ h6 {
 /* logo  */
 .logohead {
   color: #2196f3;
+
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -46,6 +48,7 @@ h6 {
 }
 .logolegs {
   color: #000000;
+
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -55,6 +58,7 @@ h6 {
 /* site-nav */
 .navigation .link {
   color: #212121;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,6 +72,7 @@ h6 {
 /* head-address */
 .header-address .link {
   color: var(--primary-text-color);
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -90,6 +95,7 @@ h6 {
 .nav-project .button {
   background-color: var(--supporting-fon-color);
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -128,6 +134,7 @@ h6 {
 
 .footer-address .geo {
   color: #ffffff;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -135,6 +142,7 @@ h6 {
 }
 .footer-address .link {
   color: rgba(255, 255, 255, 0.6);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

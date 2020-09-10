@@ -18,6 +18,7 @@
 body {
   background-color: var(--primary-fon-color);
   color: var(--primary-text-color);
+
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -39,6 +40,7 @@ h6 {
 /* logo  */
 .logohead {
   color: #2196f3;
+
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -46,6 +48,7 @@ h6 {
 }
 .logolegs {
   color: #000000;
+
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -55,6 +58,7 @@ h6 {
 /* site-nav */
 .navigation .link {
   color: #212121;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,6 +72,7 @@ h6 {
 /* head-address */
 .header-address .link {
   color: var(--primary-text-color);
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -85,7 +90,7 @@ h6 {
 }
 .hero-title {
   color: #ffffff;
-  font-style: normal;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -96,6 +101,7 @@ h6 {
 .hero .button {
   background-color: var(--primary-logo-color);
   color: #ffffff;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -106,14 +112,14 @@ h6 {
 
 /* advantages */
 
-.advantages .title {
+.advantages-list .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
-.advantages .text {
+.advantages-list .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -126,18 +132,18 @@ h6 {
   line-height: 1.16;
   text-align: center;
 }
-
-/* command */
-
-/* .command {
-  background-color: var(--supporting-fon-color); */
+.section-command{
+  background-color: var(--supporting-fon-color);
+}
+.command-list {
+  background-color: var(--supporting-fon-color);
 }
 /* .command .foto {
   background-color: #ffffff;
   height: 368px;
   width: 270px; */
 }
-.command .name {
+.command-list .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -157,6 +163,7 @@ line-height: 1.19;
 
 .footer-address .geo {
   color: #ffffff;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -164,6 +171,7 @@ line-height: 1.19;
 }
 .footer-address .link {
   color: rgba(255, 255, 255, 0.6);
+  
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
