@@ -85,15 +85,19 @@ h6 {
   letter-spacing: 0.06em;
 }
 
-/*  project-nav */
+/*  nav-project */
 
-.nav-project .list {
+.nav-project .button {
   background-color: var(--supporting-fon-color);
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
-.nav-project .list:hover,
-.nav-project .list:active {
+.nav-project .button:hover,
+.nav-project .button:active {
   background-color: var(--primary-logo-color);
   color: #ffffff;
 }
@@ -104,6 +108,19 @@ h6 {
 
 /* project */
 
+.project .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project .item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
 /* footer */
 
 .footer {
