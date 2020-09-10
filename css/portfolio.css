@@ -53,20 +53,20 @@ h6 {
 }
 
 /* site-nav */
-.navigation .list {
+.navigation .link {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation .list:hover,
-.navigation .list:focus {
+.navigation .link:hover,
+.navigation .link:focus {
   color: #2196f3;
 }
 
 /* head-address */
-.header-address .list {
+.header-address .link {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -74,8 +74,8 @@ h6 {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-address .list:hover,
-.header-address .list:focus {
+.header-address .link:hover,
+.header-address .link:focus {
   color: #2196f3;
 }
 
@@ -90,7 +90,6 @@ h6 {
 .nav-project .button {
   background-color: var(--supporting-fon-color);
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -109,14 +108,12 @@ h6 {
 /* project */
 
 .project .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .project .item {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
