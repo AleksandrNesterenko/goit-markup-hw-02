@@ -18,6 +18,7 @@
 body {
   background-color: var(--primary-fon-color);
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
 }
 li {
   list-style-type: none;
