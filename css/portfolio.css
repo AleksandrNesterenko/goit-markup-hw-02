@@ -1,0 +1,96 @@
+/* основной цвет текста color: #757575 */
+/* вторичный цвет текста color: #212121 */
+/* основной фон color: #ffffff; */
+/* вторичный фон color: #2F303A */
+/* вспомогательный фон color: #F5F4FA */
+/* цвет логотипа color: #2196F3; */
+/* вторичный цвет логотипа color: #000000 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-fon-color: #ffffff;
+  --secondary-fon-color: #2f303a;
+  --supporting-fon-color: #f5f4fa;
+  --primary-logo-color: #2196f3;
+  --secondary--logo-colr: #000000;
+}
+body {
+  background-color: var(--primary-fon-color);
+  color: var(--primary-text-color);
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  color: var(--secondary--logo-colr);
+}
+
+/* header  */
+
+/* logo  */
+.logohead {
+  color: #2196f3;
+}
+.logolegs {
+  color: #000000;
+}
+
+/* site-nav */
+.navigation .list {
+  color: #212121;
+}
+.navigation .list:hover,
+.navigation .list:focus {
+  color: #2196f3;
+}
+
+/* address */
+.header-address .list {
+  color: var(--primary-text-color);
+}
+.header-address .list:hover,
+.header-address .list:focus {
+  color: #2196f3;
+}
+
+/* main */
+
+/*  project-nav */
+
+.nav-project .list {
+  background-color: var(--supporting-fon-color);
+  color: var(--title-text-color);
+}
+
+.nav-project .list:hover,
+.nav-project .list:active {
+  background-color: var(--primary-logo-color);
+  color: #ffffff;
+}
+
+/* project */
+
+/* footer */
+
+.footer {
+  background-color: var(--secondary-fon-color);
+}
+
+/* logo  */
+
+.footer .logolegs {
+  color: #ffffff;
+}
+
+/* address  */
+
+.footer-address .geo {
+  color: #ffffff;
+}
+.footer .link {
+  color: var(--primary-text-color);
+}
