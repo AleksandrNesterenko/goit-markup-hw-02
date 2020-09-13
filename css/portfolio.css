@@ -34,7 +34,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--secondary--logo-colr);
+  color: var(--title-text-color);
+}
+button {
+  font-family: inherit;
 }
 
 /* logo  */
@@ -58,6 +61,14 @@ h6 {
 /* site-nav */
 .navigation .link {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation .view-link {
+  color: var(--primary-logo-color);
 
   font-weight: 500;
   font-size: 14px;

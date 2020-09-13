@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--secondary--logo-colr);
+  color: var(--title-text-color);
 }
 
 /* logo  */
@@ -58,6 +58,14 @@ h6 {
 /* site-nav */
 .navigation .link {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation .view-link {
+  color: var(--primary-logo-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -132,26 +140,27 @@ h6 {
   line-height: 1.16;
   text-align: center;
 }
-.section-command{
+.section-command {
   background-color: var(--supporting-fon-color);
 }
 .command-list {
   background-color: var(--supporting-fon-color);
 }
+
 /* .command .foto {
   background-color: #ffffff;
   height: 368px;
-  width: 270px; */
-}
-.command-list .name {
+  width: 270px;} */
+
+.command-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.profession{
-font-weight: n400;
-font-size: 16px;
-line-height: 1.19;
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 /* footer */
 
@@ -171,7 +180,7 @@ line-height: 1.19;
 }
 .footer-address .link {
   color: rgba(255, 255, 255, 0.6);
-  
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
